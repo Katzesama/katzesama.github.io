@@ -1,0 +1,135 @@
+body{
+	background-color: black;
+}
+
+
+h2{
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-style: double;
+	padding: 10px;
+}
+
+h2, h3, h4{
+	font-family: Helvetica;
+	color: #1b3265;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px black, 0 0 25px rgba(48, 90, 181, 1), 0 0 35px rgba(195, 209, 239, 0.5);
+}
+
+p{
+  color: #cce6ff;
+  font-size: 1.2em;
+  font-family: Georgia;
+	mix-blend-mode: difference;
+}
+
+.section{
+  border-bottom-style: ridge;
+}
+
+.section li{
+  color: #cce6ff;
+  font-size: 1.2em;
+  font-family: Georgia;
+}
+
+#teamproject div{
+	border-style: inset;
+	margin-bottom: 30px;
+}
+
+#sidebar {
+	background-color: rgba(0,0,0,0.1);
+  overflow-x: hidden;
+	margin-top: 10%;
+	width: 15%;
+	height: auto;
+	border-radius: 10px;
+	display:block;
+	margin-left: 1%;
+}
+
+#sidebar div{
+	margin-top: 30%;
+	width: 100%;
+	text-align: left;
+}
+
+
+#sidebar li {
+	margin-top: 10%;
+	font-size: 2vw;
+  color: #e6f2ff;
+  display: block;
+  font-family: Georgia;
+	display: list-item;
+}
+
+.indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  path {
+    transition: all 0.3s ease;
+  }
+}
+
+#container{
+  margin-left: 16%;
+	display:block;
+}
+
+
+#about img{
+	border-radius: 30%;
+	width: 30%;
+	height: 25%;
+	display: block;
+	max-width: 100%;
+}
+
+#keys li{
+  text-align: left;
+  font-size: 1.2em;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: Georgia;
+}
+
+#keys{
+  list-style: square;
+}
+
+a:hover{
+  color: #003166;
+}
+
+.neon {
+  font-weight: bold;
+  animation: shining 0.1s alternate infinite;
+}
+
+@keyframes shining {
+  from {
+    text-shadow: 0 0 6px rgba(102, 181, 255, 0.9),
+      0 0 30px rgba(102, 181, 255, 0.3), 0 0 12px rgba(26, 144, 255, 0.5),
+      0 0 21px rgba(26, 144, 255, 0.9), 0 0 34px rgba(26, 144, 255, 0.8),
+      0 0 54px rgba(26, 144, 255, 0.9);
+  }
+  to {
+    text-shadow: 0 0 6px rgba(102, 181, 255, 1),
+      0 0 30px rgba(102, 181, 255, 0.4), 0 0 12px rgba(26, 144, 255, 0.6),
+      0 0 22px rgba(26, 144, 255, 0.8), 0 0 38px rgba(26, 144, 255, 0.9),
+      0 0 60px rgba(26, 144, 255, 1);
+  }
+}
+
+.box-shinning{
+  border-color: #e6f2ff;
+  box-shadow:0 0 6px rgba(102, 181, 255, 0.9),
+    0 0 7px rgba(102, 181, 255, 0.3), 0 0 12px rgba(26, 144, 255, 0.5);
+}
