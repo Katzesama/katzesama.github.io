@@ -1,149 +1,301 @@
 <!DOCTYPE html>
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <head>
-    <meta charset="UTF-8">
-    <title>Iris Pan's Personal Page</title>
-    <link rel="stylesheet" href="homepage.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  </head>
-<body>
-<!--sidebar-->
-  <div id="sidebar" class="w3-sidebar w3-bar-block box-shinning">
-      <div>
-        <ul class="neon" style="list-style-type:None;padding: 7%;">
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#history">Experiences</a></li>
-              <ul style="list-style-type:None;">
-                <li><a href="#courses">Courses</a></li>
-                <li><a href="#teamproject">Team</a></li>
-                <li><a href="#personal">Personal</a></li>
-              </ul>
-            <li><a href="#important">Things about ME!</a></li>
-        </ul>
-        <svg class="indicator" width="200" height="100%" xmlns="http://www.w3.org/2000/svg">
-            <path stroke="#00284d" stroke-width="0.5vw" fill="transparent" stroke-dasharray="0, 0, 0, 1000" stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.5, -0.5)" />
-          </svg>
-          <span class="neon" style="padding:10px;font-size: 2vw;color: White;font-family: Georgia;"><a href="./something/Iris_Pan_Resume.pdf" download>Download Iris's Resume</a></span>
-      </div>
-      </div>
+<html lang="en">
 
-<!-- section container -->
-<div id="container" class="w3-container">
-    <div id="about" class="section">
-				<h2>About Me</h2>
-        <div style="display: flex;">
-		<p>
-      Hello, I am Iris Pan. Currently a New Grad from University of Alberta with Computing Science Specialization program.
-    </p>
-    <img src="./something/neko.JPG" alt="Smiley face">
-  </div>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Iris Pan's Personal Page</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <a class="menu-toggle rounded" href="#">
+    <i class="fas fa-bars"></i>
+  </a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <a class="js-scroll-trigger" href="#page-top">Iris Pan</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#about">About</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#skills">Skills</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#education">Education</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#experience">Experience</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#aboutme">Things About Me</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead d-flex">
+    <div class="container text-center my-auto">
+      <h1 class="mb-1">Iris Pan</h1>
+      <h3 class="mb-5">
+        <em>Welcome to My Personal Page!</em>
+      </h3>
+      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
     </div>
+    <div class="overlay"></div>
+  </header>
 
-    <div id="skills" class="section">
-            <h2>My skills</h2>
-            <h3>Programming Languages</h3>
-            <div class="programming">
-              <p>
-                Python, JavaScript, Java, SQL, HTML, CSS, C++, C#, Lua.
-              </p>
-            </div>
-            <h3>Framworks</h3>
-            <div class="framworks">
-                <p>
-                  Django, Android Studio.
-                </p>
-            </div>
-            <h3>Computer Vision</h3>
-            <div class="computer_vision">
-                <p>
-                  3Ds Max.
-                </p>
-            </div>
-            <h3>Editors</h3>
-            <div class="editors">
-                <p>
-                  Atom, Pycharm, Wing IDE, Visual Studio.
-                </p>
-            </div>
-            <h3>Languages</h3>
-            <div class="languages">
-              <p>Cantonese, Mandarin, English, Japanese(learner), French(learner).</p>
-            </div>
-	   <h3>Game Engine</h3>
-            <div>
-              <p>Love2d, Unity.</p>
-           </div>
-    </div>
+  <!-- About -->
+  <section class="content-section bg-light" id="about">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h2>ABOUT ME</h2>
+          <p class="lead mb-5">Hello, I am Iris Pan. Graduated from University of Alberta with Computing Science Specialization program. And I am actively looking for a job.
+          <a href="./something/Iris_Pan_Resume.pdf">You can download my resume</a>!</p>
+              <br>
+              <a class="btn btn-primary rounded-circle text-white mr-3" href="https://www.linkedin.com/in/iris-p-b463b9196/">
+                <i class="icon-social-linkedin"></i>
+              </a>
 
-    <div id="history" class="section">
-			<h2>My Experiences</h2>
-      <div id="courses">
-      <h3>My Relevant Courses</h3>
-      <p>
-        Software Engineering, Web applications and architect, Database, AI, Image Processing.
-        </p>
-      </div>
-			<h3>My Projects At University</h3>
-      <h3> Team Project</h3>
-        <div id="teamproject">
-            <div>
-              <h4>HabitRabbit - An android app.</h4>
-              <p><a href="https://github.com/CMPUT301F17T30/HabitRabbit">Github code here!</a></p>
-              <p><a href="https://github.com/CMPUT301F17T30/HabitRabbit/wiki">Documentation here!</a></p>
-            </div>
-            <div>
-              <h4>Boy’s Adventure — A 3 minutes long 3D animation.</h4>
-              <p align="center"><iframe src="https://drive.google.com/file/d/1PjqgFwLRFHhaoMXrTR-jUcN66Tnjgrsr/preview" width="auto" height="100%" ></iframe></p>
-            </div>
-            <div>
-              <h4>Anatomy Pathway — A Web-based project.</h4>
-              <p>This project is a web-based app. The two main functionalities of this project are game editor and
-                image editor. This project is mainly for instructor to create games for anatomy class. The website
-                should be accessed from PC or labtop and javascript should be enable.</p>
-              <p>Note: Since this this project is for a real client, the code cannot be public.</p>
-            </div>
-            <div>
-              <h4>Database course - term projects</h4>
-              <p>Using python and sqlite3, mostly to process a large file(Edmonton binary map file) and compute the distance. Please read the
-                README file for more detailed information.</p>
-              <p><a href="https://github.com/Katzesama/Cmput391projects">Check the code here!</a></p>
-          </div>
-          <h3> Personal Project </h3>
-        <div id="personal">
-          <h4>C++ Practice</h4>
-          <p>The repository currently has Greedy Snake and Tictactoe.</p>
-          <p><a href="https://github.com/Katzesama/CPP_EXERCISE">Github code here!</a></p>
-          <h4>Web Game</h4>
-          <p>The repository currently has 2048.</p>
-          <p><a href="https://github.com/Katzesama/WebGame">Github code here!</a></p>
-	  <h4>Delivery - Website</h4>
-          <p>Online food ordering product. The project is developped in Django.</p>
-          <p><a href="https://github.com/Katzesama/deliveryProject">Github code here!</a></p>
-	  <h4>Slime Adventure - 3D Game</h4>
-          <p>A 3D game developed using Unity. Player controls the slime to find and eat the cakes so that the player can get enough points to get to the next level.
-	     Player also needs to be careful of some dangerous places that will get slime killed.</p>
-          <p><a href="https://https://github.com/Katzesama/SlimeAdventure">Github code here!</a></p>
-          <p>For more personal projects, Please check my Github repositories.</p>
-		
+              <a class="btn btn-primary rounded-circle text-white" href="https://github.com/Katzesama">
+                <i class="icon-social-github"></i>
+              </a>
+
         </div>
+      </div>
     </div>
+  </section>
 
-</div>
+  <!-- Skills -->
+  <section class="content-section bg-primary text-white text-center" id="skills">
+    <div class="container">
+      <div class="content-section-heading">
+        <h2 class="text-secondary mb-0">SKILLS</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 mt-3">
+          <h4>
+            <strong>Programming</strong>
+          </h4>
+          <p class="text-faded mb-0">Python, JavaScript, Java, SQL, HTML, CSS, C++, C#, Lua.</p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 mt-3">
+          <h4>
+            <strong>Frameworks</strong>
+          </h4>
+          <p class="text-faded mb-0">Django, Android Studio.</p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5 mb-md-0 mt-3">
+          <h4>
+            <strong>Computer Vision</strong>
+          </h4>
+          <p class="text-faded mb-0">3Ds Max.</p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 mt-3">
+          <h4>
+            <strong>Editors</strong>
+          </h4>
+          <p class="text-faded mb-0">Atom, Wing IDE, Visual Studio.</p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 mt-3">
+          <h4>
+            <strong>Languages</strong>
+          </h4>
+          <p class="text-faded mb-0">Cantonese, Mandarin, English, Japanese(learner), French(learner).</p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 mt-3">
+          <h4>
+            <strong>Game Engines</strong>
+          </h4>
+          <p class="text-faded mb-0">Love2d, Unity.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <div id="important" class="section">
-    <h2>Important Things about Me</h2>
-        <ul id="keys">
-            <li>Fast Learner and have passion to learn new things.</li>
-            <li>Love Arts(drawing and singing).</li>
-            <li>Love puzzle games, board games, gaming.</li>
-            <li>Love Cats!</li>
-        </ul>
+  <!-- Education -->
+  <section class="callout" id="education">
+    <div class="container text-center">
+      <h2 class="mx-auto mb-3">EDUCATION</h2>
+      <h3 class="mb-0">University of Alberta, Edmonton</h3>
+      <p class="lead mb-0">B.Sc. Specialization in Computing Science<p class="text-faded">Sept. 2015 - May 2019</p></p>
+      <p class="lead mb-0">Relevant Courses: Software Engineering, Web applications and architect, Database</p>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="content-section" id="experience">
+    <div class="container">
+      <div class="content-section-heading text-center">
+        <h3 class="text-secondary mb-0">EXPERIENCE</h3>
+        <h2 class="mb-5">Team Projects (University)</h2>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="https://github.com/CMPUT301F17T30/HabitRabbit">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">HabitRabbit - An android app.</div>
+                <p class="mb-0">Click for Github Code, Documentation is in wiki page.</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/habitrabbit.png" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="https://drive.google.com/file/d/1PjqgFwLRFHhaoMXrTR-jUcN66Tnjgrsr/preview">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">Boy’s Adventure — A 3 minutes long 3D animation.</div>
+                <p class="mb-0">Click for Video!</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/boyadventure.png" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#!">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">Anatomy Pathway — A Web-based project.</div>
+                <p class="mb-0">This project is a web-based app. The two main functionalities of this project are game editor and
+                  image editor. This project is mainly for instructor to create games for anatomy class. The website
+                  should be accessed from PC or labtop and javascript should be enable.</p>
+                  <p class="mb-0">Note: Since this this project is for a real client, the code cannot be public.</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/anatomy.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="https://github.com/Katzesama/Cmput391projects">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">Database course - term projects</div>
+                <p class="mb-0">Using python and sqlite3, mostly to process a large file(Edmonton binary map file) and compute the distance. Please read the
+                  README file for more detailed information.</p>
+                <p class="mb-0">Click for Github code!</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+          </a>
+        </div>
       </div>
 
+      <div class="content-section-heading text-center">
+        <h2 class="mb-5 mt-5">Personal Projects</h2>
+      </div>
 
-</div>
-<script src="scroller.js"></script>
-    </body>
+      <div class="row no-gutters">
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="https://github.com/Katzesama/CPP_EXERCISE">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">C++ Practice</div>
+                <p class="mb-0">The repository currently has Greedy Snake and Tictactoe.</p>
+                <p class="mb-0">Click for Github code!</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="https://github.com/Katzesama/WebGame">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">Web Game</div>
+                <p class="mb-0">The repository currently has 2048.</p>
+                <p class="mb-0">Click for Github code!</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="https://github.com/Katzesama/deliveryProject">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">Delivery - Website</div>
+                <p class="mb-0">Online food ordering product. The project is developped in Django. The actual code has been deployed to AWS and it is ready to be used.</p>
+                <p class="mb-0">Click for some demo code!</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="https://github.com/Katzesama/SlimeAdventure">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">Slime Adventure - 3D Game</div>
+                <p class="mb-0">A 3D game developed using Unity. Player controls the slime to find and eat the cakes so that the player can get enough points to get to the next level.
+      	     Player also needs to be careful of some dangerous places that will get slime killed.</p>
+                <p class="mb-0">Click for Github code!</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/slime.png" alt="">
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Thins about me -->
+  <section class="content-section bg-primary text-white" id="aboutme">
+    <div class="container text-center">
+      <h2 class="mb-4">THINGS ABOUT ME</h2>
+      <p class="text-faded mb-0">Fast Learner and have passion to learn new things.</p>
+      <p class="text-faded mb-0">Love Arts(drawing and singing).</p>
+      <p class="text-faded mb-0">Love puzzle games, board games, gaming <i class="fas fa-gamepad"></i> .</p>
+      <p class="text-faded mb-0">Love Cats <i class="fas fa-heart"></i> !</p>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+
+      <p class="text-muted small mb-0">Copyright &copy; Iris Pan Page 2020</p>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/stylish-portfolio.min.js"></script>
+
+</body>
+
 </html>
